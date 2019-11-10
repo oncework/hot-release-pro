@@ -1,7 +1,19 @@
 {
   "name": "oncework",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "manifest": [
+    {
+      "version": "3.0.3",
+      "file": [
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "Optimize deleted snippets."
+      ]
+    },
     {
       "version": "3.0.2",
       "file": [
