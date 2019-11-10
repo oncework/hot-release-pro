@@ -1,7 +1,19 @@
 {
   "name": "oncework",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "manifest": [
+    {
+      "version": "3.0.4",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix all syncs."
+      ]
+    },
     {
       "version": "3.0.3",
       "file": [

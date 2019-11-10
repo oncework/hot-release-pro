@@ -1,6 +1,6 @@
 {
   "name": "codeexpander-gui",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "a smart snippet tool for person.",
   "productName": "CodeExpander",
   "main": "./main.js",
