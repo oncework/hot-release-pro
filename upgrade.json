@@ -1,7 +1,14 @@
 {
   "name": "oncework",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "manifest": [
+    {
+      "version": "3.0.6",
+      "file": [],
+      "detail": [
+        "当前分支不再更新，请至官网下载最新版本。(The current branch is no longer updated. Please go to the official website to download the latest version.)"
+      ]
+    },
     {
       "version": "3.0.5",
       "file": [
