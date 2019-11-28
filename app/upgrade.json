@@ -1,7 +1,20 @@
 {
   "name": "oncework",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "manifest": [
+    {
+      "version": "3.1.1",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🔥 Support config sync to gist."
+      ]
+    },
     {
       "version": "3.1.0",
       "file": [],
