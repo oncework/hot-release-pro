@@ -1,7 +1,24 @@
 {
   "name": "oncework",
-  "version": "3.1.2",
+  "version": "3.1.4",
   "manifest": [
+    {
+      "version": "3.1.4",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/5.js",
+        "app/renderer/6.js",
+        "app/renderer/7.js",
+        "app/renderer/9.js",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix fillIn modal related."
+      ]
+    },
     {
       "version": "3.1.0",
       "file": [],
