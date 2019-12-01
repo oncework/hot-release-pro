@@ -153,6 +153,13 @@
       "unicode_decimal": 59358
     },
     {
+      "icon_id": "608232",
+      "name": "打开",
+      "font_class": "open-window",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
       "icon_id": "637632",
       "name": "LC_icon_file_line",
       "font_class": "filename",
@@ -375,6 +382,13 @@
       "font_class": "lock-open",
       "unicode": "e6ac",
       "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "2137713",
+      "name": "添加专栏_创建专栏",
+      "font_class": "create-group",
+      "unicode": "e693",
+      "unicode_decimal": 59027
     },
     {
       "icon_id": "2284737",

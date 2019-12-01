@@ -1,9 +1,9 @@
-.CodeMirror {
+.react-neditor .CodeMirror {
     line-height: 1em;
     font-family: monospace;
 }
 
-.CodeMirror-scroll {
+.react-neditor .CodeMirror-scroll {
     overflow: auto;
     height: 300px;
     /* This is needed to prevent an IE[67] bug where the scrolled content
@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.CodeMirror-gutter {
+.react-neditor .CodeMirror-gutter {
     position: absolute; left: 0; top: 0;
     z-index: 10;
     background-color: #f7f7f7;
@@ -19,17 +19,17 @@
     min-width: 2em;
     height: 100%;
 }
-.CodeMirror-gutter-text {
+.react-neditor .CodeMirror-gutter-text {
     color: #aaa;
     text-align: right;
     padding: .4em .2em .4em .4em;
     white-space: pre !important;
 }
-.CodeMirror-lines {
+.react-neditor .CodeMirror-lines {
     padding: .4em;
 }
 
-.CodeMirror pre {
+.react-neditor .CodeMirror pre {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     -o-border-radius: 0;
@@ -42,63 +42,63 @@
     word-wrap: normal;
 }
 
-.CodeMirror-wrap pre {
+.react-neditor .CodeMirror-wrap pre {
     word-wrap: break-word;
     white-space: pre-wrap;
 }
-.CodeMirror-wrap .CodeMirror-scroll {
+.react-neditor .CodeMirror-wrap .CodeMirror-scroll {
     overflow-x: hidden;
 }
 
-.CodeMirror textarea {
+.react-neditor .CodeMirror textarea {
     outline: none !important;
 }
 
-.CodeMirror pre.CodeMirror-cursor {
+.react-neditor .CodeMirror pre.CodeMirror-cursor {
     z-index: 10;
     position: absolute;
     visibility: hidden;
     border-left: 1px solid black;
 }
-.CodeMirror-focused pre.CodeMirror-cursor {
+.react-neditor .CodeMirror-focused pre.CodeMirror-cursor {
     visibility: visible;
 }
 
-span.CodeMirror-selected { background: #d9d9d9; }
-.CodeMirror-focused span.CodeMirror-selected { background: #d2dcf8; }
+.react-neditor span.CodeMirror-selected { background: #d9d9d9; }
+.react-neditor .CodeMirror-focused span.CodeMirror-selected { background: #d2dcf8; }
 
-.CodeMirror-searching {background: #ffa;}
+.react-neditor .CodeMirror-searching {background: #ffa;}
 
 /* Default theme */
 
-.cm-s-default span.cm-keyword {color: #708;}
-.cm-s-default span.cm-atom {color: #219;}
-.cm-s-default span.cm-number {color: #164;}
-.cm-s-default span.cm-def {color: #00f;}
-.cm-s-default span.cm-variable {color: black;}
-.cm-s-default span.cm-variable-2 {color: #05a;}
-.cm-s-default span.cm-variable-3 {color: #085;}
-.cm-s-default span.cm-property {color: black;}
-.cm-s-default span.cm-operator {color: black;}
-.cm-s-default span.cm-comment {color: #a50;}
-.cm-s-default span.cm-string {color: #a11;}
-.cm-s-default span.cm-string-2 {color: #f50;}
-.cm-s-default span.cm-meta {color: #555;}
-.cm-s-default span.cm-error {color: #f00;}
-.cm-s-default span.cm-qualifier {color: #555;}
-.cm-s-default span.cm-builtin {color: #30a;}
-.cm-s-default span.cm-bracket {color: #cc7;}
-.cm-s-default span.cm-tag {color: #170;}
-.cm-s-default span.cm-attribute {color: #00c;}
-.cm-s-default span.cm-header {color: #a0a;}
-.cm-s-default span.cm-quote {color: #090;}
-.cm-s-default span.cm-hr {color: #999;}
-.cm-s-default span.cm-link {color: #00c;}
+.react-neditor .cm-s-default span.cm-keyword {color: #708;}
+.react-neditor .cm-s-default span.cm-atom {color: #219;}
+.react-neditor .cm-s-default span.cm-number {color: #164;}
+.react-neditor .cm-s-default span.cm-def {color: #00f;}
+.react-neditor .cm-s-default span.cm-variable {color: black;}
+.react-neditor .cm-s-default span.cm-variable-2 {color: #05a;}
+.react-neditor .cm-s-default span.cm-variable-3 {color: #085;}
+.react-neditor .cm-s-default span.cm-property {color: black;}
+.react-neditor .cm-s-default span.cm-operator {color: black;}
+.react-neditor .cm-s-default span.cm-comment {color: #a50;}
+.react-neditor .cm-s-default span.cm-string {color: #a11;}
+.react-neditor .cm-s-default span.cm-string-2 {color: #f50;}
+.react-neditor .cm-s-default span.cm-meta {color: #555;}
+.react-neditor .cm-s-default span.cm-error {color: #f00;}
+.react-neditor .cm-s-default span.cm-qualifier {color: #555;}
+.react-neditor .cm-s-default span.cm-builtin {color: #30a;}
+.react-neditor .cm-s-default span.cm-bracket {color: #cc7;}
+.react-neditor .cm-s-default span.cm-tag {color: #170;}
+.react-neditor .cm-s-default span.cm-attribute {color: #00c;}
+.react-neditor .cm-s-default span.cm-header {color: #a0a;}
+.react-neditor .cm-s-default span.cm-quote {color: #090;}
+.react-neditor .cm-s-default span.cm-hr {color: #999;}
+.react-neditor .cm-s-default span.cm-link {color: #00c;}
 
-span.cm-header, span.cm-strong {font-weight: bold;}
-span.cm-em {font-style: italic;}
-span.cm-emstrong {font-style: italic; font-weight: bold;}
-span.cm-link {text-decoration: underline;}
+.react-neditor span.cm-header, span.cm-strong {font-weight: bold;}
+.react-neditor span.cm-em {font-style: italic;}
+.react-neditor span.cm-emstrong {font-style: italic; font-weight: bold;}
+.react-neditor span.cm-link {text-decoration: underline;}
 
-div.CodeMirror span.CodeMirror-matchingbracket {color: #0f0;}
-div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
+.react-neditor div.CodeMirror span.CodeMirror-matchingbracket {color: #0f0;}
+.react-neditor div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
