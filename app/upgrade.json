@@ -1,7 +1,25 @@
 {
   "name": "oncework",
-  "version": "3.1.4",
+  "version": "3.1.6",
   "manifest": [
+    {
+      "version": "3.1.6",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/5.js",
+        "app/renderer/6.js",
+        "app/renderer/7.js",
+        "app/renderer/9.js",
+        "app/renderer/renderer.js",
+        "app/renderer/style.css",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix window draggable."
+      ]
+    },
     {
       "version": "3.1.4",
       "file": [
