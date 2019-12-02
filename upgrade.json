@@ -1,7 +1,22 @@
 {
   "name": "oncework",
-  "version": "3.1.8",
+  "version": "3.1.9",
   "manifest": [
+    {
+      "version": "3.1.9",
+      "file": [
+        "app/assets/neditor/themes/iframe.css",
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/renderer/style.css",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🎨 Fix UI problem and modify some errors."
+      ]
+    },
     {
       "version": "3.1.8",
       "file": [

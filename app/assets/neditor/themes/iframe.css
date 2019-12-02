@@ -24,6 +24,7 @@ img {
 }
 
 .ant-tag-green {
+  cursor: pointer;
   color: #52c41a;
   background: #f6ffed;
   border-color: #b7eb8f;
