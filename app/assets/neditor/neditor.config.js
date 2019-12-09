@@ -45,7 +45,7 @@
         toolbars: [
             [
                 "fullscreen",
-                "source",
+                // "source",
                 "|",
                 "undo",
                 "redo",
@@ -103,7 +103,7 @@
                 // "simpleupload",
                 "insertimage",
                 // "emotion",    // 表情包
-                "scrawl",
+                // "scrawl",
                 "insertvideo",
                 // "music",
                 // "attachment", // 附件

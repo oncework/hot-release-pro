@@ -1,7 +1,32 @@
 {
   "name": "oncework",
-  "version": "3.1.9",
+  "version": "3.1.11",
   "manifest": [
+    {
+      "version": "3.1.11",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix non-drag problem again."
+      ]
+    },
+    {
+      "version": "3.1.10",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/7.js",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix non-drag problem."
+      ]
+    },
     {
       "version": "3.1.9",
       "file": [
