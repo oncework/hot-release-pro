@@ -30,10 +30,15 @@
         // 服务器统一请求接口路径
         //serverUrl: window.NEDITOR_UPLOAD || URL + "php/controller.php",
         serverUrl: "",
-        imageActionName: "uploadimage",
-        scrawlActionName: "uploadscrawl",
-        videoActionName: "uploadvideo",
-        fileActionName: "uploadfile",
+        // todo: 复制粘贴图片
+        // uploadimage
+        imageActionName: "",
+        // uploadscrawl
+        scrawlActionName: "",
+        // uploadvideo
+        videoActionName: "",
+        // uploadfile
+        fileActionName: "",
         imageFieldName: "file", // 提交的图片表单名称
         imageMaxSize: 2048000, // 上传大小限制，单位B
         imageUrlPrefix: "",
