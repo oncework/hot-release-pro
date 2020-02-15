@@ -1,7 +1,33 @@
 {
   "name": "oncework",
-  "version": "3.1.13",
+  "version": "3.1.15",
   "manifest": [
+    {
+      "version": "3.1.15",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix user error type."
+      ]
+    },
+    {
+      "version": "3.1.14",
+      "file": [
+        "app/assets/neditor/neditor.all.js",
+        "app/assets/neditor/neditor.config.js",
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🔒 Ban invalid images."
+      ]
+    },
     {
       "version": "3.1.13",
       "file": [
