@@ -1,7 +1,21 @@
 {
   "name": "oncework",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "manifest": [
+    {
+      "version": "3.2.3",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/12.js",
+        "app/renderer/20.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix proxy handler."
+      ]
+    },
     {
       "version": "3.2.2",
       "file": [
