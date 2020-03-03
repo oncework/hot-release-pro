@@ -1,7 +1,40 @@
 {
   "name": "oncework",
-  "version": "3.1.15",
+  "version": "3.2.2",
   "manifest": [
+    {
+      "version": "3.2.2",
+      "file": [
+        "app/assets/iconfont.css",
+        "app/assets/iconfont.eot",
+        "app/assets/iconfont.js",
+        "app/assets/iconfont.json",
+        "app/assets/iconfont.svg",
+        "app/assets/iconfont.ttf",
+        "app/assets/iconfont.woff",
+        "app/assets/iconfont.woff2",
+        "app/main.js",
+        "app/package-lock.json",
+        "app/package.json",
+        "app/renderer/11.js",
+        "app/renderer/12.js",
+        "app/renderer/13.js",
+        "app/renderer/14.js",
+        "app/renderer/15.js",
+        "app/renderer/16.js",
+        "app/renderer/17.js",
+        "app/renderer/18.js",
+        "app/renderer/19.js",
+        "app/renderer/20.js",
+        "app/renderer/renderer.js",
+        "app/renderer/style.css",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🔥 Add snippet upload status."
+      ]
+    },
     {
       "version": "3.1.15",
       "file": [
