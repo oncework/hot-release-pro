@@ -1,7 +1,19 @@
 {
   "name": "oncework",
-  "version": "3.2.10",
+  "version": "3.2.11",
   "manifest": [
+    {
+      "version": "3.2.11",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Add loading applications logger"
+      ]
+    },
     {
       "version": "3.2.10",
       "file": [
