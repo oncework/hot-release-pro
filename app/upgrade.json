@@ -1,7 +1,25 @@
 {
   "name": "oncework",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "manifest": [
+    {
+      "version": "3.2.8",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/15.js",
+        "app/renderer/18.js",
+        "app/renderer/19.js",
+        "app/renderer/20.js",
+        "app/renderer/21.js",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🎨 Add uuid for fillIn model as default value"
+      ]
+    },
     {
       "version": "3.2.7",
       "file": [
