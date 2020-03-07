@@ -1,7 +1,19 @@
 {
   "name": "oncework",
-  "version": "3.2.9",
+  "version": "3.2.10",
   "manifest": [
+    {
+      "version": "3.2.10",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix loading applications again"
+      ]
+    },
     {
       "version": "3.2.9",
       "file": [
