@@ -1,7 +1,19 @@
 {
   "name": "oncework",
-  "version": "3.2.6",
+  "version": "3.2.7",
   "manifest": [
+    {
+      "version": "3.2.7",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix applications list"
+      ]
+    },
     {
       "version": "3.2.6",
       "file": [
