@@ -1,7 +1,20 @@
 {
   "name": "oncework",
-  "version": "3.2.12",
+  "version": "3.2.13",
   "manifest": [
+    {
+      "version": "3.2.13",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix empty string from fillIn model"
+      ]
+    },
     {
       "version": "3.2.12",
       "file": [

@@ -1,7 +1,25 @@
 {
   "name": "oncework",
-  "version": "3.2.13",
+  "version": "3.2.14",
   "manifest": [
+    {
+      "version": "3.2.14",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/11.js",
+        "app/renderer/16.js",
+        "app/renderer/22.js",
+        "app/renderer/24.js",
+        "app/renderer/9.js",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix missing file cause network"
+      ]
+    },
     {
       "version": "3.2.13",
       "file": [
