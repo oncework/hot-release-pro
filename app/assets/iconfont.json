@@ -6,6 +6,20 @@
   "description": "a tool for snippet.",
   "glyphs": [
     {
+      "icon_id": "5093648",
+      "name": "logout",
+      "font_class": "api-logout",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "10555081",
+      "name": "码云",
+      "font_class": "mayun",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
       "icon_id": "1479453",
       "name": "ic_sync_disabled",
       "font_class": "ic_sync_disabled",
