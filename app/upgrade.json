@@ -1,7 +1,30 @@
 {
   "name": "oncework",
-  "version": "3.2.14",
+  "version": "3.3.0",
   "manifest": [
+    {
+      "version": "3.3.0",
+      "file": [
+        "app/assets/iconfont.css",
+        "app/assets/iconfont.eot",
+        "app/assets/iconfont.js",
+        "app/assets/iconfont.json",
+        "app/assets/iconfont.svg",
+        "app/assets/iconfont.ttf",
+        "app/assets/iconfont.woff",
+        "app/assets/iconfont.woff2",
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/11.js",
+        "app/renderer/22.js",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🔥 Support gitee snippets full feature."
+      ]
+    },
     {
       "version": "3.2.14",
       "file": [
