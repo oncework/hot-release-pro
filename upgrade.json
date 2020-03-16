@@ -1,7 +1,20 @@
 {
   "name": "oncework",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "manifest": [
+    {
+      "version": "3.3.3",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix Fill-ins highlights"
+      ]
+    },
     {
       "version": "3.3.2",
       "file": [
