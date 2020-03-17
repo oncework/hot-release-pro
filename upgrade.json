@@ -1,7 +1,21 @@
 {
   "name": "oncework",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "manifest": [
+    {
+      "version": "3.3.4",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/renderer/style.css",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fixed the issue of removing windows and preventing multiple instances from causing delays."
+      ]
+    },
     {
       "version": "3.3.3",
       "file": [
