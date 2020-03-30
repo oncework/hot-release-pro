@@ -1,7 +1,20 @@
 {
   "name": "oncework",
-  "version": "3.3.5",
+  "version": "3.3.6",
   "manifest": [
+    {
+      "version": "3.3.6",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/16.js",
+        "app/renderer/renderer.js",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fixed some bugs."
+      ]
+    },
     {
       "version": "3.3.5",
       "file": [
