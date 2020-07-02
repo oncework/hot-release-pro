@@ -6,6 +6,265 @@
   "description": "a tool for snippet.",
   "glyphs": [
     {
+      "icon_id": "1203904",
+      "name": "picture",
+      "font_class": "ce-code",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "3176645",
+      "name": "GitHub",
+      "font_class": "ce-github",
+      "unicode": "ea0a",
+      "unicode_decimal": 59914
+    },
+    {
+      "icon_id": "3414131",
+      "name": "切换",
+      "font_class": "ce-qiehuan",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "4878218",
+      "name": "重命名",
+      "font_class": "ce-rename",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "11839495",
+      "name": "复制",
+      "font_class": "ce-fuzhi",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "11839585",
+      "name": "删除行",
+      "font_class": "ce-shanchuhang",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "15035414",
+      "name": "添加",
+      "font_class": "ce-add",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "9131990",
+      "name": "更多",
+      "font_class": "ce-more",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "8450595",
+      "name": "share",
+      "font_class": "ce-share",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "14055546",
+      "name": "浏览器",
+      "font_class": "ce-liulanqi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "8065302",
+      "name": "online-conference",
+      "font_class": "ce-online",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "2167897",
+      "name": "飞机",
+      "font_class": "ce-proxy",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "3901493",
+      "name": "92-键盘",
+      "font_class": "ce-jianpan",
+      "unicode": "e892",
+      "unicode_decimal": 59538
+    },
+    {
+      "icon_id": "4513243",
+      "name": "编辑器",
+      "font_class": "ce-bianjiqi",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "6988560",
+      "name": "个人中心",
+      "font_class": "ce-gerenzhongxin",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "7741460",
+      "name": "个人",
+      "font_class": "ce-person",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3864601",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "3867957",
+      "name": "标签",
+      "font_class": "biaoqian1",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "3872039",
+      "name": "标签",
+      "font_class": "biaoqian2",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "3872988",
+      "name": "标签",
+      "font_class": "biaoqian3",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "4163425",
+      "name": "标签",
+      "font_class": "biaoqian4",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "7511485",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "6146007",
+      "name": "settings",
+      "font_class": "settings",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "6559549",
+      "name": "重启",
+      "font_class": "ce-restart",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "10566430",
+      "name": "valentine_032-unlock-heart-love-key",
+      "font_class": "valentine_-unlock-heart-love-key",
+      "unicode": "e75f",
+      "unicode_decimal": 59231
+    },
+    {
+      "icon_id": "10566432",
+      "name": "valentine_031-lock-heart-love-key",
+      "font_class": "valentine_-lock-heart-love-key",
+      "unicode": "e760",
+      "unicode_decimal": 59232
+    },
+    {
+      "icon_id": "15416297",
+      "name": "心意卡",
+      "font_class": "ce-soucang",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "15416304",
+      "name": "心-红包",
+      "font_class": "ce-group",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "15521912",
+      "name": "Log_Out",
+      "font_class": "ce-logout",
+      "unicode": "eb79",
+      "unicode_decimal": 60281
+    },
+    {
+      "icon_id": "15549423",
+      "name": "全部分类",
+      "font_class": "ce-all",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "15550856",
+      "name": "execute",
+      "font_class": "ce-execute",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "3814162",
+      "name": "升级",
+      "font_class": "ce-update",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "8896969",
+      "name": "wd-applet-onboarding",
+      "font_class": "ce-shiyongbangzhu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10340616",
+      "name": "174 - Cloud with upward arrow",
+      "font_class": "ce-upload",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "10340618",
+      "name": "173 - Cloud",
+      "font_class": "ce-sync",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "10340620",
+      "name": "175 - Cloud with downward arrow",
+      "font_class": "ce-download",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "14538458",
+      "name": "star_flat",
+      "font_class": "ce-store",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
       "icon_id": "5093648",
       "name": "logout",
       "font_class": "api-logout",
