@@ -1,7 +1,21 @@
 {
   "name": "oncework",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "manifest": [
+    {
+      "version": "3.5.1",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json",
+        "app/nodes/iohook/2LbI6.node"
+      ],
+      "detail": [
+        "🎨 Add feature can disable auto upload snippet."
+      ]
+    },
     {
       "version": "3.5.0",
       "file": [
