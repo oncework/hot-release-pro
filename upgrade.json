@@ -1,7 +1,20 @@
 {
   "name": "oncework",
-  "version": "3.5.1",
+  "version": "3.5.2",
   "manifest": [
+    {
+      "version": "3.5.2",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/renderer/style.css",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Fix gitee sync all problem."
+      ]
+    },
     {
       "version": "3.5.1",
       "file": [
