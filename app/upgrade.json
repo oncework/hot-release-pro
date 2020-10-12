@@ -1,7 +1,19 @@
 {
   "name": "oncework",
-  "version": "3.5.2",
+  "version": "3.5.3",
   "manifest": [
+    {
+      "version": "3.5.3",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 Optimize terminal experience."
+      ]
+    },
     {
       "version": "3.5.2",
       "file": [

@@ -841,6 +841,16 @@ form .ant-input-group-wrapper {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
+.ant-mention-wrapper .ant-mention-editor-borderless,
+.ant-mention-wrapper .ant-mention-editor-borderless:hover,
+.ant-mention-wrapper .ant-mention-editor-borderless:focus,
+.ant-mention-wrapper .ant-mention-editor-borderless-focused,
+.ant-mention-wrapper .ant-mention-editor-borderless-disabled,
+.ant-mention-wrapper .ant-mention-editor-borderless[disabled] {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
 textarea.ant-mention-wrapper .ant-mention-editor {
   max-width: 100%;
   height: auto;
@@ -5245,12 +5255,13 @@ function webpackContext(req) {
 	return __webpack_require__(id);
 }
 function webpackContextResolve(req) {
-	if(!__webpack_require__.o(map, req)) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
 		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	}
-	return map[req];
+	return id;
 }
 webpackContext.keys = function webpackContextKeys() {
 	return Object.keys(map);
@@ -5511,12 +5522,13 @@ function webpackContext(req) {
 	return __webpack_require__(id);
 }
 function webpackContextResolve(req) {
-	if(!__webpack_require__.o(map, req)) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
 		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	}
-	return map[req];
+	return id;
 }
 webpackContext.keys = function webpackContextKeys() {
 	return Object.keys(map);
