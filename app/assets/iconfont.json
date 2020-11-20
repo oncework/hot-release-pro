@@ -6,6 +6,13 @@
   "description": "a tool for snippet.",
   "glyphs": [
     {
+      "icon_id": "1190301",
+      "name": "filled_filter",
+      "font_class": "filled_filter",
+      "unicode": "e896",
+      "unicode_decimal": 59542
+    },
+    {
       "icon_id": "1203904",
       "name": "picture",
       "font_class": "ce-code",
