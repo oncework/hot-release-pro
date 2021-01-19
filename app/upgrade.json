@@ -1,7 +1,21 @@
 {
   "name": "oncework",
-  "version": "3.5.5",
+  "version": "3.5.6",
   "manifest": [
+    {
+      "version": "3.5.6",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/renderer/style.css",
+        "app/upgrade.json",
+        "upgrade.json"
+      ],
+      "detail": [
+        "🐛 修复FillIn模式不能使用剪切板"
+      ]
+    },
     {
       "version": "3.5.5",
       "file": [

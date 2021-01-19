@@ -1,6 +1,6 @@
 {
   "name": "codeexpander-gui",
-  "version": "3.5.6",
+  "version": "3.5.7",
   "description": "a smart snippet tool for person.",
   "productName": "CodeExpander",
   "main": "./main.js",
@@ -26,6 +26,5 @@
   },
   "node": "v8.2.1",
   "innerUpdate": false,
-  "license": "ISC",
-  "dependencies": {}
+  "license": "ISC"
 }
