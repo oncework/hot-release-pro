@@ -1,7 +1,21 @@
 {
   "name": "oncework",
-  "version": "3.5.7",
+  "version": "3.5.8",
   "manifest": [
+    {
+      "version": "3.5.8",
+      "file": [
+        "app/main.js",
+        "app/package.json",
+        "app/renderer/renderer.js",
+        "app/upgrade.json",
+        "upgrade.json",
+        "app/nodes/leveldown/2V_wh.node"
+      ],
+      "detail": [
+        "🐛 Fix ui style. [2021-01-19]"
+      ]
+    },
     {
       "version": "3.5.7",
       "file": [
